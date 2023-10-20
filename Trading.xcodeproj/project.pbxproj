@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091E6F112ADFDEFF00AC2AE4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E6F102ADFDEFF00AC2AE4 /* UserModel.swift */; };
+		091E6F132AE054FE00AC2AE4 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E6F122AE054FE00AC2AE4 /* TopView.swift */; };
+		091E6F152AE0551000AC2AE4 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E6F142AE0551000AC2AE4 /* TradeView.swift */; };
+		092D252C2AE159BD003C428A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D252B2AE159BD003C428A /* ViewModel.swift */; };
+		092D252E2AE15C36003C428A /* TopUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D252D2AE15C36003C428A /* TopUserView.swift */; };
+		092D25332AE19304003C428A /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 092D25322AE19304003C428A /* launchScreen.png */; };
+		092D25352AE1A044003C428A /* TradeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D25342AE1A044003C428A /* TradeWidgetView.swift */; };
+		092D25372AE25BB6003C428A /* TradeCurrencyPairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D25362AE25BB6003C428A /* TradeCurrencyPairView.swift */; };
+		092D25392AE28215003C428A /* TradeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D25382AE28215003C428A /* TradeSettingsView.swift */; };
+		092D253D2AE28373003C428A /* TradeButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D253C2AE28373003C428A /* TradeButtonsView.swift */; };
+		092D253F2AE2B6E8003C428A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D253E2AE2B6E8003C428A /* LoadingView.swift */; };
 		09E8C7542ADEDF5500ED0549 /* TradingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8C7532ADEDF5500ED0549 /* TradingApp.swift */; };
 		09E8C7562ADEDF5500ED0549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8C7552ADEDF5500ED0549 /* ContentView.swift */; };
 		09E8C7582ADEDF5600ED0549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E8C7572ADEDF5600ED0549 /* Assets.xcassets */; };
@@ -14,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		091E6F102ADFDEFF00AC2AE4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		091E6F122AE054FE00AC2AE4 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		091E6F142AE0551000AC2AE4 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		092D252B2AE159BD003C428A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		092D252D2AE15C36003C428A /* TopUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUserView.swift; sourceTree = "<group>"; };
+		092D252F2AE18826003C428A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		092D25322AE19304003C428A /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
+		092D25342AE1A044003C428A /* TradeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeWidgetView.swift; sourceTree = "<group>"; };
+		092D25362AE25BB6003C428A /* TradeCurrencyPairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCurrencyPairView.swift; sourceTree = "<group>"; };
+		092D25382AE28215003C428A /* TradeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeSettingsView.swift; sourceTree = "<group>"; };
+		092D253C2AE28373003C428A /* TradeButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeButtonsView.swift; sourceTree = "<group>"; };
+		092D253E2AE2B6E8003C428A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		09E8C7502ADEDF5500ED0549 /* Trading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E8C7532ADEDF5500ED0549 /* TradingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingApp.swift; sourceTree = "<group>"; };
 		09E8C7552ADEDF5500ED0549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +55,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091E6F0B2ADFDC0400AC2AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				091E6F102ADFDEFF00AC2AE4 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		091E6F0C2ADFDC0C00AC2AE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09E8C7552ADEDF5500ED0549 /* ContentView.swift */,
+				092D253E2AE2B6E8003C428A /* LoadingView.swift */,
+				092D252A2AE1404D003C428A /* Trade */,
+				092D25292AE14045003C428A /* Top */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		091E6F0E2ADFDCA500AC2AE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				092D252B2AE159BD003C428A /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		091E6F0F2ADFDCBC00AC2AE4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				09E8C7572ADEDF5600ED0549 /* Assets.xcassets */,
+				092D25322AE19304003C428A /* launchScreen.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		092D25292AE14045003C428A /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				091E6F122AE054FE00AC2AE4 /* TopView.swift */,
+				092D252D2AE15C36003C428A /* TopUserView.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		092D252A2AE1404D003C428A /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				091E6F142AE0551000AC2AE4 /* TradeView.swift */,
+				092D25342AE1A044003C428A /* TradeWidgetView.swift */,
+				092D25362AE25BB6003C428A /* TradeCurrencyPairView.swift */,
+				092D25382AE28215003C428A /* TradeSettingsView.swift */,
+				092D253C2AE28373003C428A /* TradeButtonsView.swift */,
+			);
+			path = Trade;
+			sourceTree = "<group>";
+		};
 		09E8C7472ADEDF5500ED0549 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +131,12 @@
 		09E8C7522ADEDF5500ED0549 /* Trading */ = {
 			isa = PBXGroup;
 			children = (
+				092D252F2AE18826003C428A /* Info.plist */,
 				09E8C7532ADEDF5500ED0549 /* TradingApp.swift */,
-				09E8C7552ADEDF5500ED0549 /* ContentView.swift */,
-				09E8C7572ADEDF5600ED0549 /* Assets.xcassets */,
+				091E6F0B2ADFDC0400AC2AE4 /* Model */,
+				091E6F0C2ADFDC0C00AC2AE4 /* Views */,
+				091E6F0E2ADFDCA500AC2AE4 /* ViewModel */,
+				091E6F0F2ADFDCBC00AC2AE4 /* Assets */,
 				09E8C7592ADEDF5600ED0549 /* Preview Content */,
 			);
 			path = Trading;
@@ -127,6 +210,7 @@
 			files = (
 				09E8C75B2ADEDF5600ED0549 /* Preview Assets.xcassets in Resources */,
 				09E8C7582ADEDF5600ED0549 /* Assets.xcassets in Resources */,
+				092D25332AE19304003C428A /* launchScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +222,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E8C7562ADEDF5500ED0549 /* ContentView.swift in Sources */,
+				091E6F112ADFDEFF00AC2AE4 /* UserModel.swift in Sources */,
+				091E6F132AE054FE00AC2AE4 /* TopView.swift in Sources */,
+				092D25372AE25BB6003C428A /* TradeCurrencyPairView.swift in Sources */,
+				091E6F152AE0551000AC2AE4 /* TradeView.swift in Sources */,
+				092D253F2AE2B6E8003C428A /* LoadingView.swift in Sources */,
+				092D25392AE28215003C428A /* TradeSettingsView.swift in Sources */,
+				092D252C2AE159BD003C428A /* ViewModel.swift in Sources */,
+				092D252E2AE15C36003C428A /* TopUserView.swift in Sources */,
 				09E8C7542ADEDF5500ED0549 /* TradingApp.swift in Sources */,
+				092D25352AE1A044003C428A /* TradeWidgetView.swift in Sources */,
+				092D253D2AE28373003C428A /* TradeButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,17 +363,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Trading/Preview Content\"";
 				DEVELOPMENT_TEAM = 8GJMP9US45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trading/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +394,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Trading/Preview Content\"";
 				DEVELOPMENT_TEAM = 8GJMP9US45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trading/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
